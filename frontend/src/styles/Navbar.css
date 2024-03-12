@@ -1,0 +1,31 @@
+.Navbar {
+    background-color: #000000; /* Grey background color */
+    height: 70px; /* Set the height of the navbar */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.Navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.Navbar li {
+    margin-right: 20px; /* Add spacing between list items */
+    font-size: 18px; /* Set the font size of the li elements */
+}
+
+.Navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set the text color of the links */
+    padding: 10px 15px; /* Add padding to make it clickable */
+    border-radius: 20px; /* Make it round */
+}
+
+.Navbar a:hover {
+    background-color: orange; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}

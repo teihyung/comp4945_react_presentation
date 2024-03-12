@@ -1,0 +1,26 @@
+.Landing {
+    text-align: center;
+    padding: 20px;
+}
+
+.Features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.Feature {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Feature h2 {
+    margin-bottom: 10px;
+}
+
+.Feature p {
+    color: #666;
+}

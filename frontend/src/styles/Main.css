@@ -1,0 +1,41 @@
+.CenterWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height to fill the viewport */
+}
+.Main {
+    padding: 20px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 70vh;
+}
+
+.Main form {
+    padding: 10px; /* Add padding inside the form */
+    border: 1px solid #ccc; /* Add a small border around the form */
+    border-radius: 10px; /* Add rounded corners to the form */
+    display: inline-block; /* Make the form's width only as wide as its content */
+}
+
+.Main input {
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.Main button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+
+}
+
+.Main button:hover {
+    background-color: #0056b3;
+}
